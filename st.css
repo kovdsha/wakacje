@@ -1,0 +1,158 @@
+/* Стилизация заголовка */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #333;
+  }
+ /* Стили для контейнера фотографий */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Стили для отдельной фотографии */
+  .image-container img {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Анимация при наведении на фотографию */
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+/* стиль для заголовка h1 */
+h1 {
+    color: #cc11cc; /* цвет текста */
+    font-size: 48px; /* размер шрифта */
+    text-align: center; /* выравнивание текста */
+    margin-top: 50px; /* отступ сверху */
+  }
+  
+  /* стиль для ссылок в навигационном меню */
+  nav a {
+    color: #1E90FF; /* цвет текста */
+    text-decoration: none; /* убрать подчеркивание */
+    margin: 0 10px; /* отступы между ссылками */
+    font-size: 20px; /* размер шрифта */
+  }
+  
+  /* стиль для секций */
+  section {
+    margin-top: 50px; /* отступ сверху */
+  }
+  
+  /* стиль для списка */
+  ul {
+    list-style: none; /* убрать маркеры списка */
+    padding: 0; /* убрать отступы вокруг списка */
+    margin: 0; /* убрать отступы вокруг списка */
+  }
+  
+  /* стиль для пунктов списка */
+  li {
+    margin-bottom: 10px; /* отступ снизу */
+  }
+  /* Установить фоновый цвет страницы */
+body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Установить стиль шрифта для заголовков */
+  h1, h2 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Установить стиль шрифта для навигации */
+  nav {
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  /* Стилизовать ссылки навигации */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Установить стиль шрифта для основного текста */
+  main {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+  }
+  
+  /* Стилизовать секции */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Добавить рамку вокруг изображений */
+  .image-container img {
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px #ccc;
+    margin: 10px;
+  }
+  
+  /* Добавить анимацию при наведении на изображения */
+  .image-container img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Стилизовать футер */
+  footer {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ccc;
+    color: #fff;
+  }
+/* Стиль для мобильных устройств */
+@media only screen and (max-width: 600px) {
+    /* Помещаем навигационное меню на новую строку */
+    .header-menu {
+      display: block;
+      margin-top: 20px;
+    }
+    /* Уменьшаем размер шрифта в заголовках секций */
+    h2 {
+      font-size: 24px;
+    }
+    /* Уменьшаем отступы между элементами списка */
+    ul {
+      margin-bottom: 10px;
+    }
+    /* Убираем фон у элемента списка */
+    li {
+      background-color: transparent;
+    }
+    /* Уменьшаем размер шрифта в текстовых блоках */
+    .text-container, .text-container2 {
+      font-size: 16px;
+    }
+  }
